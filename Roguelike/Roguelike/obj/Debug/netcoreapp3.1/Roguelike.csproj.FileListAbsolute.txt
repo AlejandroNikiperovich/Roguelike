@@ -1,0 +1,11 @@
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\bin\Debug\netcoreapp3.1\Roguelike.exe
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\bin\Debug\netcoreapp3.1\Roguelike.deps.json
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\bin\Debug\netcoreapp3.1\Roguelike.runtimeconfig.json
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\bin\Debug\netcoreapp3.1\Roguelike.runtimeconfig.dev.json
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\bin\Debug\netcoreapp3.1\Roguelike.dll
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\bin\Debug\netcoreapp3.1\Roguelike.pdb
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\obj\Debug\netcoreapp3.1\Roguelike.csprojAssemblyReference.cache
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\obj\Debug\netcoreapp3.1\Roguelike.AssemblyInfoInputs.cache
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\obj\Debug\netcoreapp3.1\Roguelike.AssemblyInfo.cs
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\obj\Debug\netcoreapp3.1\Roguelike.dll
+C:\Users\Cabesa\source\repos\Roguelike\Roguelike\obj\Debug\netcoreapp3.1\Roguelike.pdb

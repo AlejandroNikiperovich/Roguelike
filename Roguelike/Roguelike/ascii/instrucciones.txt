@@ -1,0 +1,34 @@
+Objetivo: Mata al jefe final
+
+MOVIMIENTO (@)
+Te mueves con las flechas o WASD
+Al empezar una partida no puedes moverte por bosque (A) o agua (~)
+Caminar por casillas con trampas (X) te quita puntos de vida
+Algunos objetos permiten alterar el mapa o caminar por cierto terreno
+
+INVENTARIO Y RUINAS (O)
+El inventario contiene todos los objetos unicos que encuentres
+Consigues objetos unicos al matar mini-jefes en ruinas, entra a ellas con ENTER
+Los objetos unicos pueden ser hechizos o equipamiento
+Abre y cierra el inventario con ESPACIO, navegalo con las flechas o WASD
+
+OBJETOS UNICOS
+Comienzas la partida con dos hechizos: Rayos y Teleportar
+Para usarlos entra al inventario y pulsa ENTER
+Si estas atascado en bosque o agua usa Rayos y Teleportar, respectivamente
+Cada hechizo tiene cargas, si las gastas todas no lo puedes usar
+Los hechizos pueden funcionar de forma distinta dentro y fuera de combate
+El equipamiento mejora tu personaje pasivamente
+
+MOCHILA DE POCIONES (&)
+Recoge pociones pulsando ENTER cuando estes encima de una en el mapa
+Con TAB abres y cierras la mochila de pociones, navegala con las flechas o WASD
+Para usarlas pulsa ENTER
+
+COMBATE
+Empiezas un combate al entrar en una ruina o a veces al coger pociones
+Te enfrentas a un enemigo por turnos, baja sus puntos de vida a 0
+Cada turno puedes usar una accion, es decir, usar un hechizo o pocion
+Ganas experiencia al terminar el combate
+
+Pulsa una tecla para empezar...

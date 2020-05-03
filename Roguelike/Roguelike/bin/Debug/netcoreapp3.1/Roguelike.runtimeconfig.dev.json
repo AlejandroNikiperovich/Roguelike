@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Cabesa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Cabesa\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Roguelike.Program">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Roguelike.Mapa">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAACAABBAAAAEQICAIAAAABBAAABAgkIAA=</HashCode>
+      <FileName>Mapa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Roguelike.Celda">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Celda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Roguelike.EstadoCelda">
+    <Position X="8.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAEAAAABIwAgAAAAAAAIAAgA=</HashCode>
+      <FileName>EstadoCelda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Roguelike.Objeto">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAACAAAEAAAAAACQAABAAAAAAAAAAIgA=</HashCode>
+      <FileName>Objeto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Roguelike.Equipamiento">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Equipamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Roguelike.Hechizo">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACIAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAQIAA=</HashCode>
+      <FileName>Hechizo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Roguelike.Consumible">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Consumible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Roguelike.NombreEnemigo">
+    <Position X="10.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAEAAAAAAAAAAAAACBAAAAAAAAAAAAUAAAA=</HashCode>
+      <FileName>NombreEnemigo.cs</FileName>
+      <NewMemberFileName>NombreObjeto.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Roguelike.Jugador">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kQIEAQAEARAAIAgAAAAKEAAhIQAFAAAAAEJ4RBAwAKA=</HashCode>
+      <FileName>Jugador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Roguelike.Enemigo" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAAAAAACAAAAIAAAAIAAAAAAAAEEAAAAAAoA=</HashCode>
+      <FileName>Enemigo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Roguelike.Unico">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Roguelike.IEnemigo">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAAAAAACAAAAIAAAAIAAAAAAAAEEAAAAAAoA=</HashCode>
+      <FileName>IEnemigo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
