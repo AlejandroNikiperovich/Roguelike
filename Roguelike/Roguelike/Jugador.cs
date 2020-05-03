@@ -25,13 +25,15 @@ namespace Roguelike
         public int vida, maxVida, nivel, experiencia, siguienteNivel, evasion, proteccion;
 
         // Indica si el jugador esta en combate o no
-        public bool enCombate;
+        private bool enCombate;
 
         // Inventario de objetos unicos
         public Unico[] inventario = new Unico[9];
 
         // Mochila de pociones
         public List<Consumible> mochila = new List<Consumible>();
+
+        public bool EnCombate { get => enCombate; set => enCombate = value; }
 
         public Jugador(Mapa mapa)
         {
@@ -53,10 +55,23 @@ namespace Roguelike
             experiencia = 0;
             siguienteNivel = 10;
 
-            enCombate = false;
+            EnCombate = false;
 
+<<<<<<< HEAD
             // Generamos el inventario inicial del jugador.
             for (var indice = 0; indice < inventario.Length; indice++)
+=======
+            // Generamos el inventario inicial del jugador
+            GenerarInventario();
+
+            // Cada objeto unico se encuentra en una ruina. Generamos las ruinas en el mapa
+            mapa.GenerarRuinas(inventario);
+        }
+
+        private void GenerarInventario()
+        {
+            for (int indice = 0; indice < inventario.Length; indice++)
+>>>>>>> refactorizar
             {
                 // Cinco primeros slots son hechizos, el resto son equipamiento.
                 if (indice < 5)
@@ -74,9 +89,12 @@ namespace Roguelike
                     inventario[indice] = new Equipamiento(indice);
                 }
             }
+<<<<<<< HEAD
 
             // Cada objeto unico se encuentra en una ruina. Generamos las ruinas en el mapa.
             mapa.GenerarRuinas(inventario);
+=======
+>>>>>>> refactorizar
         }
 
 
@@ -608,7 +626,7 @@ namespace Roguelike
                 // Hechizo Rayos
                 case NombreObjeto.rayos:
                     // Fuera de combate quema los bosque contiguos al jugador
-                    if (!enCombate)
+                    if (!EnCombate)
                     {
                         for (int columna = x - 1; columna <= x + 1; columna++)
                         {
@@ -762,7 +780,7 @@ namespace Roguelike
                 // Hechizo Temblor
                 case NombreObjeto.temblor:
                     // Fuera de combate elimina las trampas contiguas al jugador
-                    if (!enCombate)
+                    if (!EnCombate)
                     {
                         for (int columna = x - 1; columna <= x + 1; columna++)
                         {
@@ -797,7 +815,7 @@ namespace Roguelike
                 case NombreObjeto.pocionHP:
                     vida = maxVida;
 
-                    if (enCombate)
+                    if (EnCombate)
                     {
                         mensaje = "Usas una " + objeto.nombre + ".\nRestauras tus puntos de vida.";
                     }
@@ -814,7 +832,7 @@ namespace Roguelike
                         }
                     }
 
-                    if (enCombate)
+                    if (EnCombate)
                     {
                         mensaje = "Usas una " + objeto.nombre + ".\nRecuperas todas las cargas de hechizos.";
                     }
@@ -827,7 +845,7 @@ namespace Roguelike
                     GanarExperiencia(siguienteNivel);
                     experiencia = 0;
 
-                    if (enCombate)
+                    if (EnCombate)
                     {
                         mensaje = "Usas una " + objeto.nombre + ".\nSubes de nivel y te curas.";
                     }
@@ -921,7 +939,7 @@ namespace Roguelike
             } while (enemigo.tipo != tipo);
 
             // Ponemos al jugador en modo combate y cambiamos la disponibilidad de algunos hechizos
-            enCombate = true;
+            EnCombate = true;
             CambiarInventario();
 
             // Dibujamos el ASCII del enemigo
@@ -947,7 +965,7 @@ namespace Roguelike
             Console.Clear();
 
             // Terminamos el combate, cambiamos la disponibilidad otra vez y restauramos los stats del jugador
-            enCombate = false;
+            EnCombate = false;
             CambiarInventario();
             ComprobarStats();
 
