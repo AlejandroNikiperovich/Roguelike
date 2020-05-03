@@ -58,6 +58,14 @@ namespace Roguelike
             EnCombate = false;
 
             // Generamos el inventario inicial del jugador
+            generarInventario();
+
+            // Cada objeto unico se encuentra en una ruina. Generamos las ruinas en el mapa
+            mapa.GenerarRuinas(inventario);
+        }
+
+        private void generarInventario()
+        {
             for (int indice = 0; indice < inventario.Length; indice++)
             {
                 // Cinco primeros slots son hechizos, el resto son equipamiento
@@ -76,9 +84,6 @@ namespace Roguelike
                     inventario[indice] = new Equipamiento(indice);
                 }
             }
-
-            // Cada objeto unico se encuentra en una ruina. Generamos las ruinas en el mapa
-            mapa.GenerarRuinas(inventario);
         }
 
 
