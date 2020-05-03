@@ -13,7 +13,7 @@ namespace Roguelike
         // Indica si el objeto puede usarse en el contexto actual
         public bool puedeUsarse; 
 
-        // Asigna las propiedades a cada objeto segun su id
+        // Asigna las propiedades a cada objeto segun su id.
         public void AsignarNombre(int cod)
         {
             switch (cod)
@@ -38,22 +38,22 @@ namespace Roguelike
 
                 case NombreObjeto.rayos:
                     nombre = "Rayos";
-                    descripcion = "Daña a un enemigo con una descarga electrica. En el mapa, quema arboles a tu" +
-                    " alrededor.";
+                    descripcion = "Daña a un enemigo con una descarga electrica. En el mapa, quema arboles a tu"
+                        + " alrededor.";
                     puedeUsarse = true;
                     break;
 
                 case NombreObjeto.tp:
                     nombre = "Teletransporte";
-                    descripcion = "Cambia tu posicion a una casilla aleatoria. Si estas mirando hacia una casilla de" +
-                    " agua, puedes atravesar un charco si mide menos de 10 casillas.";
+                    descripcion = "Cambia tu posicion a una casilla aleatoria. Si estas mirando hacia una casilla de"
+                        + " agua, puedes atravesar un charco si mide menos de 10 casillas.";
                     puedeUsarse = true;
                     break;
 
                 case NombreObjeto.levitar:
                     nombre = "Levitar";
-                    descripcion = "Aumenta tu evasion durante el resto del combate. Tras adquirirlo, puedes levitar " +
-                    "sobre casillas de agua.";
+                    descripcion = "Aumenta tu evasion durante el resto del combate. Tras adquirirlo, puedes levitar "
+                        + "sobre casillas de agua.";
                     puedeUsarse = false;
                     break;
 

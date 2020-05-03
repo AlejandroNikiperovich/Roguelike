@@ -55,16 +55,16 @@ namespace Roguelike
 
             enCombate = false;
 
-            // Generamos el inventario inicial del jugador
-            for (int indice = 0; indice < inventario.Length; indice++)
+            // Generamos el inventario inicial del jugador.
+            for (var indice = 0; indice < inventario.Length; indice++)
             {
-                // Cinco primeros slots son hechizos, el resto son equipamiento
+                // Cinco primeros slots son hechizos, el resto son equipamiento.
                 if (indice < 5)
                 {
                     inventario[indice] = new Hechizo(indice);
 
-                    // El jugador empieza con los hechizos Rayos y Teletransportar
-                    if (inventario[indice].id == NombreObjeto.rayos || inventario[indice].id == NombreObjeto.tp)
+                    // El jugador empieza con los hechizos Rayos y Teletransportar.
+                    if ((inventario[indice].id == NombreObjeto.rayos) || (inventario[indice].id == NombreObjeto.tp))
                     {
                         inventario[indice].conseguido = true;
                     }
@@ -75,18 +75,18 @@ namespace Roguelike
                 }
             }
 
-            // Cada objeto unico se encuentra en una ruina. Generamos las ruinas en el mapa
+            // Cada objeto unico se encuentra en una ruina. Generamos las ruinas en el mapa.
             mapa.GenerarRuinas(inventario);
         }
 
 
 
-        // Cambia la posicion del jugador en el mapa
+        // Cambia la posicion del jugador en el mapa.
         public void CambiarPosicion()
         {
-            Random aleatorio = new Random();
+            var aleatorio = new Random();
 
-            // Encontramos una casilla vacia y cambiamos las coordenadas del jugador a las de la celda
+            // Encontramos una casilla vacia y cambiamos las coordenadas del jugador a las de la celda.
             do
             {
                 x = aleatorio.Next(mapa.anchura);
