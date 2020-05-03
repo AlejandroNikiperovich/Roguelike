@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cabesa\\source\\repos\\Roguelike\\Roguelike\\Roguelike.csproj": {}
+    "C:\\Users\\Cabesa\\Desktop\\Entornos\\git\\roguelike\\Roguelike\\Roguelike\\Roguelike.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cabesa\\source\\repos\\Roguelike\\Roguelike\\Roguelike.csproj": {
+    "C:\\Users\\Cabesa\\Desktop\\Entornos\\git\\roguelike\\Roguelike\\Roguelike\\Roguelike.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cabesa\\source\\repos\\Roguelike\\Roguelike\\Roguelike.csproj",
+        "projectUniqueName": "C:\\Users\\Cabesa\\Desktop\\Entornos\\git\\roguelike\\Roguelike\\Roguelike\\Roguelike.csproj",
         "projectName": "Roguelike",
-        "projectPath": "C:\\Users\\Cabesa\\source\\repos\\Roguelike\\Roguelike\\Roguelike.csproj",
+        "projectPath": "C:\\Users\\Cabesa\\Desktop\\Entornos\\git\\roguelike\\Roguelike\\Roguelike\\Roguelike.csproj",
         "packagesPath": "C:\\Users\\Cabesa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cabesa\\source\\repos\\Roguelike\\Roguelike\\obj\\",
+        "outputPath": "C:\\Users\\Cabesa\\Desktop\\Entornos\\git\\roguelike\\Roguelike\\Roguelike\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cabesa\\AppData\\Roaming\\NuGet\\NuGet.Config",

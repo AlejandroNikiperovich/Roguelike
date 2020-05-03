@@ -952,21 +952,20 @@ namespace Roguelike
             ComprobarStats();
 
             // Ganamos experiencia tras el combate
-            if (tipo == "Normal")
+            switch (tipo)
             {
-                GanarExperiencia(siguienteNivel / 4);
-            }
-            else if (tipo == "Jefe")
-            {
-                GanarExperiencia(siguienteNivel / 2);
-            }
-            // En el caso del boss final, se muestra la pantalla de victoria
-            else
-            {
-                Console.Clear();
-                mapa.DibujarAscii("win.txt");
-                Console.ReadKey();
-                Environment.Exit(0);
+                case "Normal":
+                    GanarExperiencia(siguienteNivel / 4);
+                    break;
+                case "Jefe":
+                    GanarExperiencia(siguienteNivel / 2);
+                    break;
+                default:
+                    Console.Clear();
+                    mapa.DibujarAscii("win.txt");
+                    Console.ReadKey();
+                    Environment.Exit(0);
+                    break;
             }
         }
 
